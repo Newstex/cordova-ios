@@ -794,10 +794,10 @@
     }
 
     /*
-     * all about: scheme urls are not handled
+     * all about: scheme urls are allowed
      */
     else if ([[url scheme] isEqualToString:@"about"]) {
-        return NO;
+        return YES;
     }
 
     /*
